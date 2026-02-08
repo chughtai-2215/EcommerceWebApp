@@ -34,7 +34,7 @@ namespace ECommerceWebApp.WebApi.Middlewares.Inventory_Model_Helper
             return models;
         }
 
-        public static Category ToEntity(this CategoryModel model)
+        public static Category ToEntity(this CategoryModel model)   
         {
             var entity = new Category();
             entity.Id = 0;
